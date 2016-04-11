@@ -12,8 +12,8 @@ Note: This patch is tightly dependent on various Texas Instrument's packages. Pl
 2. Get the following source code package from TI: SW-DK-SMC-LM4FB1-1235-alpha
 Note: Please make sure to work with TI to get this package and might need to sign and NDA to get access.
 
-# Steps to Create Boot Firmware:
-================================
+# Building BridgeIC Boot Firmware:
+==================================
 - On Windows Environment
 1. Run Code Composer Studio.
 2. Use Project->New CCS Project
@@ -41,7 +41,7 @@ Note: Please make sure to work with TI to get this package and might need to sig
 1. Build the boot firmware: Project->Build All
 2. Find the boot firmware under directory: Binaries
 
-# Steps to Create Run Time Firmware:
+# Building BridgeIC Run Time Firmware:
 ====================================
 - On Windows Environment
 1. Run Code Composer Studio.
@@ -71,3 +71,9 @@ Note: Please make sure to work with TI to get this package and might need to sig
 - On Windows Environment:
 1. Build the run-time firmware: Project->Build All
 2. Find the firmware binary under directory: Binaries
+
+## Join the BridgeIC community
+See the CONTRIBUTING file for how to help out.
+
+## License
+BridgeIC is BSD-licensed. We also provide an additional patent grant.
