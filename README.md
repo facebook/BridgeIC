@@ -17,25 +17,25 @@ Note: Please make sure to work with TI to get this package and might need to sig
 - On Windows Environment
 1. Run Code Composer Studio.
 2. Use Project->New CCS Project
-3. Input Project Name: f20_tmp
+3. Input Project Name: f09_tmp
 4. Choose Sys/BIOS->Typical
 5. Press Finish
-6. Delete following files from project directory f20_tmp:
+6. Delete following files from project directory f09_tmp:
         - .ccsproject
         - .cproject
-7. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f20_tmp/
+7. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f09_tmp/
         - driverlib, inc, utils, third_party
 8. Delete all the sub-folder under third_party besides:
         - third_party/uip-1.0/uip
-9. Copy the f20_tmp/ folder to Linux Environment
+9. Copy the f09_tmp/ folder to Linux Environment
 
 - On Linux Environment
-1. Copy the following files to f20_tmp/ directory:
-        - src/boot-loader/boot110.patch
+1. Copy the following files to f09_tmp/ directory:
+        - src/boot-loader/f09_boot202.patch
         - src/boot-loader/driverlib.lib
-        - src/boot-loader/patch_boot110.sh
-2. Run patch_boot110.sh script to patch the directory with required changes
-3. Copy the f20_tmp/ directory back to Windows Environment
+        - src/boot-loader/f09_patch_boot202.sh
+2. Run f09_patch_boot202.sh script to patch the directory with required changes
+3. Copy the f09_tmp/ directory back to Windows Environment
 
 - On Windows Environment:
 1. Build the boot firmware: Project->Build All
@@ -46,27 +46,27 @@ Note: Please make sure to work with TI to get this package and might need to sig
 - On Windows Environment
 1. Run Code Composer Studio.
 2. Use Project->New CCS Project
-3. Input Project Name: f20_tmp
+3. Input Project Name: f09_tmp
 4. Choose Sys/BIOS->Typical
 5. Press Finish
-6. Delete following files from project directory f20_tmp:
+6. Delete following files from project directory f09_tmp:
 	- .ccsproject
 	- .cproject
-7. Create following two subfolders in f20_tmp:
+7. Create following two subfolders in f09_tmp:
 	- chip
 	- core 
-8. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f20_tmp/chip
+8. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f09_tmp/chip
 	- driverlib, inc
-9. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f20_tmp/core
+9. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f09_tmp/core
 	- smclib, utils
-10. Copy the f20_tmp/ folder to Linux Environment
+10. Copy the f09_tmp/ folder to Linux Environment
 
 - On Linux Environment
-1. Copy the following files to f20_tmp/ directory:
-	- src/run-time/bic131.patch
-	- src/run-time/patch_bic131.sh
-2. Run patch_bic131.sh script to patch the directory with required changes
-3. Copy the f20_tmp/ directory back to Windows Environment
+1. Copy the following files to f09_tmp/ directory:
+	- src/run-time/f09_bic109.patch
+	- src/run-time/f09_patch_bic109.sh
+2. Run f09_patch_bic109.sh script to patch the directory with required changes
+3. Copy the f09_tmp/ directory back to Windows Environment
 
 - On Windows Environment:
 1. Build the run-time firmware: Project->Build All
