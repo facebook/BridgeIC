@@ -31,10 +31,10 @@ Note: Please make sure to work with TI to get this package and might need to sig
 
 - On Linux Environment
 1. Copy the following files to f20_tmp/ directory:
-        - src/boot-loader/boot108.patch
+        - src/boot-loader/boot110.patch
         - src/boot-loader/driverlib.lib
-        - src/boot-loader/patch_boot.sh
-2. Run patch_boot.sh script to patch the directory with required changes
+        - src/boot-loader/patch_boot110.sh
+2. Run patch_boot110.sh script to patch the directory with required changes
 3. Copy the f20_tmp/ directory back to Windows Environment
 
 - On Windows Environment:
@@ -63,9 +63,9 @@ Note: Please make sure to work with TI to get this package and might need to sig
 
 - On Linux Environment
 1. Copy the following files to f20_tmp/ directory:
-	- src/run-time/bic121.patch
-	- src/run-time/patch_bic121.sh
-2. Run patch_bic121.sh script to patch the directory with required changes
+	- src/run-time/bic131.patch
+	- src/run-time/patch_bic131.sh
+2. Run patch_bic131.sh script to patch the directory with required changes
 3. Copy the f20_tmp/ directory back to Windows Environment
 
 - On Windows Environment:
