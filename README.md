@@ -1,5 +1,5 @@
 
-This firmware patch is to enable building firmware components required for BridgeIC functionality as defined in 
+This firmware patch is to enable building firmware components required for BridgeIC functionality as defined in
 1S server design @ http://www.opencompute.org/wiki/Server/SpecsAndDesigns
 
 Note: This patch is tightly dependent on various Texas Instrument's packages. Please read below for more info.
@@ -54,7 +54,7 @@ Note: Please make sure to work with TI to get this package and might need to sig
 	- .cproject
 7. Create following two subfolders in f09_tmp:
 	- chip
-	- core 
+	- core
 8. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f09_tmp/chip
 	- driverlib, inc
 9. Copy the following folders from SW-DK-SMC-LM4FB1-1235-alpha to f09_tmp/core
@@ -63,9 +63,9 @@ Note: Please make sure to work with TI to get this package and might need to sig
 
 - On Linux Environment
 1. Copy the following files to f09_tmp/ directory:
-	- src/run-time/f09_bic109.patch
-	- src/run-time/f09_patch_bic109.sh
-2. Run f09_patch_bic109.sh script to patch the directory with required changes
+	- src/run-time/f09_bic112.patch
+	- src/run-time/f09_patch_bic112.sh
+2. Run f09_patch_bic112.sh script to patch the directory with required changes
 3. Copy the f09_tmp/ directory back to Windows Environment
 
 - On Windows Environment:
