@@ -8,6 +8,9 @@ work with TI and get various base source code to begint the process. After that 
 done as patches on top  of the original files. Any changes that are planned to support newer features and/or
 platforms are done as patch files.
 
+## Code of Conduct
+The code of conduct is described in [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
+
 ## Pull Requests
 We actively welcome your pull requests.
 
