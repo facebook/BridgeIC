@@ -63,9 +63,9 @@ Note: Please make sure to work with TI to get this package and might need to sig
 
 - On Linux Environment
 1. Copy the following files to f09_tmp/ directory:
-	- src/run-time/f09_bic112.patch
-	- src/run-time/f09_patch_bic112.sh
-2. Run f09_patch_bic112.sh script to patch the directory with required changes
+	- src/run-time/f09_bic117.patch
+	- src/run-time/f09_patch_bic117.sh
+2. Run f09_patch_bic117.sh script to patch the directory with required changes
 3. Copy the f09_tmp/ directory back to Windows Environment
 
 - On Windows Environment:
