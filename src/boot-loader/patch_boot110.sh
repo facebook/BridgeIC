@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
+#
 
 patch -p1 < boot110.patch
 
@@ -120,10 +123,3 @@ rm -r -f third_party/uip-1.0/lib
 rm -r -f third_party/uip-1.0/unix
 rm third_party/uip-1.0/README
 rm third_party/uip-1.0/uip-1.0-changelog.txt
-
-
-
-
-
-
-
