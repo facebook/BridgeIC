@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
+#
 
 patch -p1 < f09_bic117.patch
 
@@ -92,9 +95,3 @@ rm core/smclib/smc_touchpad.h
 
 rm chip/driverlib/Makefile
 rm -r -f chip/driverlib/ccs
-
-
-
-
-
-
